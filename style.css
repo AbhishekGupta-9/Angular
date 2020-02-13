@@ -1,0 +1,170 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    cursor: pointer;
+}
+.main-side{
+    background: linear-gradient(180deg,#00c851,#00c818);
+    float: left;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    height: 100%;
+    box-shadow: 0 0 20px black;
+}
+.main-side img{
+    border: 5px solid #1bad56;
+    box-shadow: 0 0 20px black;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.main-side a{
+    display: block;
+    text-decoration: none;
+    color:#baf5d2;
+    padding: 20px 25px;
+    font-size: 18px;
+}
+.main-side a:hover{
+    color: white;
+    background-color: #00c808;
+    box-shadow: 0 0 15px black;
+    font-size: 20px;
+}
+
+#about{
+    margin-left: 300px;
+    padding: 30px;
+}
+#about h1{
+    font-family:'Fjalla One', sans-serif;
+    font-size: 80px;
+    margin: 80px 0 0 0;
+}
+#fn{
+    color: #382828;
+    text-shadow: 0 0 5px black;
+}
+#ln{
+    color: #00c851;
+    text-shadow: 0 0 5px black;
+}
+#about h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+#about p{
+    font-size: 25px;
+    color: gray;
+}
+
+
+#experience{
+    margin-left: 300px;
+    padding: 20px;
+}
+.main{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    text-shadow:  0 0 5px #00c851;
+}
+.exp{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 20px #00c851;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.exp:hover{
+    transform:perspective(400px) rotateY(20deg);
+}
+.exp h2{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.table tr{
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+#skills,#intrest, #education{
+    margin-left: 300px;
+    padding: 25px;
+
+}
+.edu{
+
+    padding: 10px;
+    box-shadow: 0 0 10px #00c851;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin: 10px;
+}
+.edu:hover{
+    transform: perspective(400px) rotateX(-20deg);
+}
+.edu p{
+    font-family: 'Lobster', cursive;
+    color: #00c851;
+}
+.edu p{
+    font-size: 18px;
+    color: gray;
+}
+.fab , .fas{
+    margin: 10px;
+}
+.fab:hover , .fas:hover{
+    color: #00c851;
+}
+#skills .edu:hover{
+    transform: perspective(400px) rotateX(10deg);
+}
+
+#certificate{
+    margin-left: 300px;
+    padding: 30px;
+}
+#ctxt{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.cert1{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s;
+}
+.cert1 p{
+    font-size: 18px;
+}
+.cert1:hover{
+    background-color: #00c851;
+    color: white;
+    transform: perspective(300px) translateY(-30px);
+}
+.cert1 img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow:0 0 15px black;
+}
